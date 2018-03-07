@@ -17,6 +17,10 @@ import DoMain.Space;
 import Util.FormatUtil;
 
 public class OderService extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4526263887648750825L;
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String uri = req.getRequestURI();

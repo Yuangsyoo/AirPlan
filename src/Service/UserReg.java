@@ -15,6 +15,10 @@ import Util.FormatUtil;
 import Util.MailUtil;
 
 public class UserReg extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6501178624457737141L;
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String uri=req.getRequestURI();

@@ -156,18 +156,18 @@ ${requestScope.notice }
 					<li style="background-color: #D4D4D4; padding: 2% 6%;">
 						<p>去程 ${requestScope.startdate } ${requestScope.startcity } -
 							${requestScope.arrivecity }</p>
-						<p>${requestScope.flightNum }${requestScope.spacename }舱</p>
+						<p>${requestScope.flightNum }  ${requestScope.spacename }舱</p>
 						<p>${requestScope.starttime }- - -${requestScope.arrivetime }
 						</p>
-						<p>${requestScope.startport }-- - 直达 - -
-							-${requestScope.arriveport }</p>
+						<p>${requestScope.startcity } ${requestScope.startport }- - - 直达 - -
+							-${requestScope.arrivecity } ${requestScope.arriveport }</p>
 					</li>
 					<li style="background-color: #F5E79E; padding: 2% 6%;"><span>
 							总计： </span> <span>
 							￥：${requestScope.spaceprice+requestScope.airportprice+requestScope.oilprice }
 					</span>
 						<p>
-							<span>成人￥${requestScope.spaceprice } * 1</span> <span> 机建
+							<span>成人￥${requestScope.spaceprice } </span> <span> 机建
 								(总计)￥${requestScope.airportprice } 燃油
 								(总计)${requestScope.oilprice } </span>
 						</p></li>

@@ -11,14 +11,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>index</title>
-<link href="<%=path %>css/jumbotron.css" rel="stylesheet">
-<link href="<%=path %>css/carousel.css" rel="stylesheet">
+<link href="<%=path %>css/jumbotron.css" rel="stylesheet"/>
+<link href="<%=path %>css/carousel.css" rel="stylesheet"/>
 <link rel="stylesheet" type="text/css" href="<%=path %>css/signin.css" />
-<link rel="stylesheet" href="<%=path %>libs/bootstrap3/css/bootstrap.min.css">
+<link rel="stylesheet" href="<%=path %>libs/bootstrap3/css/bootstrap.min.css"/>
 <script src="<%=path %>libs/jquery-3.3.1.min.js"></script>
 <script src="<%=path %>libs/bootstrap3/js/bootstrap.min.js"></script>
 <style type="text/css">
@@ -113,7 +113,7 @@ ${requestScope.notice }
 						<input type="date" name='startdate'  value="${requestScope.startdate }" min='<%=FormatUtil.getNow()%>' required />
 					</div>
 					<div class="col-md-2">
-						<input style="color: #ADADAD;" type="date" name='returndate' readonly="readonly">
+						<input style="color: #ADADAD;" type="date" name='returndate' readonly="readonly"/>
 					</div>
 					<div class="col-md-2 col-md-offset-1">
 						<button style="border: 0;"
@@ -130,16 +130,16 @@ ${requestScope.notice }
 				</div>
 				<form class="row">
 					<div class="col-md-2">
-						<input type="text" placeholder="出发地">
+						<input type="text" placeholder="出发地"/>
 					</div>
 					<div class="col-md-2">
-						<input type="text" placeholder="目的地">
+						<input type="text" placeholder="目的地"/>
 					</div>
 					<div class="col-md-2 col-md-offset-1">
-						<input type="date">
+						<input type="date" />
 					</div>
 					<div class="col-md-2">
-						<input type="date">
+						<input type="date" />
 					</div>
 					<div class="col-md-2 col-md-offset-1">
 						<button style="border: 0;"

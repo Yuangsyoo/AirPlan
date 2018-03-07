@@ -18,6 +18,11 @@ import DoMain.Space;
 import DoMain.User;
 
 public class PlaneService extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5268621629161885229L;
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String uri = req.getRequestURI();

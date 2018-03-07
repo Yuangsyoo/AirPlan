@@ -17,8 +17,8 @@ public class MailUtil {
 	public static HashMap<String, String> authMap=new HashMap<String,String>();
 	public static void sendMail(String to) throws IOException, MessagingException{
 		System.out.println("建立链接中");
-		String from="18428369524@163.com";
-		String password="520lq1314";
+		String from="m18919539459@163.com";
+		String password="Yang919450415";
 		Properties props=new Properties();
 		props.load(MailUtil.class.getResourceAsStream("/res/mail.properties"));
 		Session session=Session.getInstance(props);

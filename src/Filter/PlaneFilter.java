@@ -52,11 +52,11 @@ public class PlaneFilter implements Filter {
 				req.getRequestDispatcher("/HKProject/login.jsp").forward(req, resp);
 				return;
 			}
-			if(!userstatus.equals("[normal]")){
-				req.setAttribute("notice", "<script>alert('请先激活用户')</script>");
-				req.getRequestDispatcher("/HKProject/user.jsp").forward(req, resp);
-				return;
-			}
+//			if(!userstatus.equals("[normal]")){
+//				req.setAttribute("notice", "<script>alert('请先激活用户')</script>");
+//				req.getRequestDispatcher("/HKProject/user.jsp").forward(req, resp);
+//				return;
+//			}
 			if(req.getParameter("spaceId")==null){
 				req.setAttribute("notice", "<script>alert('请先预定机票')</script>");
 				req.getRequestDispatcher("/HKProject/SearchPlane.jsp").forward(req, resp);
